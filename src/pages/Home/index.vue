@@ -1,6 +1,12 @@
 <template>
   <section>
-    Home
+    <nav>
+      <ul>
+        <li>
+          <router-link to="/about"> About </router-link>
+        </li>
+      </ul>
+    </nav>
   </section>
 </template>
 
