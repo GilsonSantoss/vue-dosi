@@ -85,6 +85,11 @@
         <hr />
       </div>
     </div>
+
+    <!-- footer -->
+    <footer>
+      <p>App designed by Eric Niyongabo &#x24B8; 2019</p>
+    </footer>
   </div>
 </template>
 
@@ -94,7 +99,6 @@ export default { }
 
 <style lang="scss" scoped>
   @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
-
 
   /* ---------------------------------
       navigation bar
