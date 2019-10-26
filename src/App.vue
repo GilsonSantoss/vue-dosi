@@ -19,5 +19,10 @@
     margin:0;
     padding:0;
     position:relative;
+    background-color: #e9edf0;
+  }
+  p, hr, ul {
+    margin: 0;
+    padding: 0;
   }
 </style>
