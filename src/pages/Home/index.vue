@@ -105,8 +105,9 @@ export default { }
   --------------------------------- */
 
   .navbar {
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
-    background-color: #F0948A;
+    background-color: #4392F1;
     padding-bottom: 10px;
   }
 
@@ -206,15 +207,16 @@ export default { }
     font-size: 18px;
     text-decoration: none;
     color: white;
-    border: #f0948a 1px solid;
+    border: #4392F1 1px solid;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
-    background-color: black;
+    background-color: #4392F1;
   }
 
   .home_img .button:hover {
-    background: green;
+    background: #DC493A;
+    border: #DC493A 1px solid;
     color: #fff;
   }
 
@@ -227,7 +229,8 @@ export default { }
   ----------------------*/
 
   .container_Medecine {
-    font-family: monospace;
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -238,6 +241,8 @@ export default { }
     padding: 0.5rem;
     background-color: white;
     margin: .5rem 0.4rem 1rem 0;
+    border-radius: 20px !important;
+
   }
 
   .container_Medecine .view_details img {
@@ -251,7 +256,7 @@ export default { }
   }
 
   .container_Medecine a.view_image:hover {
-    color: #2A6637;
+    color: #DC493A;
   }
 
   .item {
@@ -284,9 +289,11 @@ export default { }
       Footer
   ----------------------*/
   footer {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
     text-align: center;
     padding: 40px;
-    background-color: #f0948a;
+    background-color: #4392F1;
     position: relative;
   }
 
